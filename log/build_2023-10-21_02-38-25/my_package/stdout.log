@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target my_node[0m
+[  3%] Built target my_package__cpp
+[ 12%] Built target my_package__rosidl_generator_c

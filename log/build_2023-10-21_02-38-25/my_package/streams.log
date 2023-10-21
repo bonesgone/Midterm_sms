@@ -1,0 +1,9 @@
+[0.192s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12
+[0.245s] [35m[1mScanning dependencies of target my_node[0m
+[0.248s] make[2]: *** No rule to make target '/home/lab/fleet_system_ws/src/my_package/src/my_node.cpp', needed by 'CMakeFiles/my_node.dir/src/my_node.cpp.o'.  Stop.
+[0.248s] make[1]: *** [CMakeFiles/Makefile2:528: CMakeFiles/my_node.dir/all] Error 2
+[0.248s] make[1]: *** Waiting for unfinished jobs....
+[0.258s] [  3%] Built target my_package__cpp
+[0.259s] [ 12%] Built target my_package__rosidl_generator_c
+[0.261s] make: *** [Makefile:141: all] Error 2
+[0.263s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12

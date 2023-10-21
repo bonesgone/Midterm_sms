@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000579] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.097832] (-) TimerEvent: {}
+[0.198416] (-) TimerEvent: {}
+[0.300785] (-) TimerEvent: {}
+[0.401528] (-) TimerEvent: {}
+[0.502371] (-) TimerEvent: {}
+[0.595889] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.599000] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.603089] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lab/fleet_system_ws/build/my_package', '--', '-j12', '-l12'], 'cwd': '/home/lab/fleet_system_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lab'), ('JOURNAL_STREAM', '8:45666'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lab-G3-3590:@/tmp/.ICE-unix/1817,unix/lab-G3-3590:/tmp/.ICE-unix/1817'), ('INVOCATION_ID', 'b68afd11b478447fb02240dd5028b9a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b663a549_bf6c_40a9_8324_0fbb4955652c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lab/fleet_system_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.616105] (-) TimerEvent: {}
+[0.717288] (-) TimerEvent: {}
+[0.817944] (-) TimerEvent: {}
+[0.826346] (my_package) StdoutLine: {'line': b'[  3%] Built target my_package__cpp\n'}
+[0.833810] (my_package) StdoutLine: {'line': b'[ 12%] Built target my_package__rosidl_generator_c\n'}
+[0.918140] (-) TimerEvent: {}
+[0.923942] (my_package) StdoutLine: {'line': b'[ 22%] Built target my_package__rosidl_typesupport_introspection_cpp\n'}
+[0.925037] (my_package) StdoutLine: {'line': b'[ 32%] Built target my_package__rosidl_typesupport_cpp\n'}
+[0.926308] (my_package) StdoutLine: {'line': b'[ 41%] Built target my_package__rosidl_typesupport_c\n'}
+[0.931684] (my_package) StdoutLine: {'line': b'[ 51%] Built target my_package__rosidl_typesupport_introspection_c\n'}
+[0.941843] (my_package) StdoutLine: {'line': b'[ 61%] Built target my_package__rosidl_typesupport_fastrtps_cpp\n'}
+[1.018359] (-) TimerEvent: {}
+[1.049644] (my_package) StdoutLine: {'line': b'[ 70%] Built target my_package__rosidl_typesupport_fastrtps_c\n'}
+[1.118539] (-) TimerEvent: {}
+[1.131137] (my_package) StdoutLine: {'line': b'[ 70%] Built target my_package\n'}
+[1.214834] (my_package) StdoutLine: {'line': b'[ 74%] Built target my_package__py\n'}
+[1.218716] (-) TimerEvent: {}
+[1.319291] (-) TimerEvent: {}
+[1.320117] (my_package) StdoutLine: {'line': b'[ 80%] Built target my_package__python\n'}
+[1.419481] (-) TimerEvent: {}
+[1.425762] (my_package) StdoutLine: {'line': b'[ 93%] Built target my_package__rosidl_typesupport_c__pyext\n'}
+[1.426543] (my_package) StdoutLine: {'line': b'[ 93%] Built target my_package__rosidl_typesupport_introspection_c__pyext\n'}
+[1.427497] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.472868] (my_package) CommandEnded: {'returncode': 0}
+[1.519755] (-) TimerEvent: {}
+[1.620801] (-) TimerEvent: {}
+[1.667243] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[1.710870] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lab/fleet_system_ws/build/my_package'], 'cwd': '/home/lab/fleet_system_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lab'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lab'), ('OLDPWD', '/home/lab'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lab'), ('JOURNAL_STREAM', '8:45666'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lab/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/lab-G3-3590:@/tmp/.ICE-unix/1817,unix/lab-G3-3590:/tmp/.ICE-unix/1817'), ('INVOCATION_ID', 'b68afd11b478447fb02240dd5028b9a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b663a549_bf6c_40a9_8324_0fbb4955652c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lab/fleet_system_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.722238] (-) TimerEvent: {}
+[1.753215] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.755003] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package\n'}
+[1.755405] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.755775] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg\n'}
+[1.756299] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.756877] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.757219] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/fleet_management.h\n'}
+[1.757572] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.758023] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__struct.h\n'}
+[1.758381] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.h\n'}
+[1.759027] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__functions.c\n'}
+[1.759343] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__functions.h\n'}
+[1.759788] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/library_path.sh\n'}
+[1.760125] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/library_path.dsv\n'}
+[1.760423] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so\n'}
+[1.760719] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.761148] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg\n'}
+[1.762072] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.762665] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.763244] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.763830] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h\n'}
+[1.765068] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so\n'}
+[1.766036] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.766533] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg\n'}
+[1.767310] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.767862] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.768461] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.768982] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/dds_fastrtps\n'}
+[1.769358] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.769676] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.769983] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.770291] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg\n'}
+[1.771222] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.771863] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.772607] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.772935] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_introspection_c.h\n'}
+[1.773217] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.c\n'}
+[1.773624] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so\n'}
+[1.774242] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so\n'}
+[1.774720] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.775169] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg\n'}
+[1.775617] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.776238] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.776727] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/fleet_management.hpp\n'}
+[1.777045] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.777343] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.hpp\n'}
+[1.777633] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__builder.hpp\n'}
+[1.778134] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__struct.hpp\n'}
+[1.778407] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__traits.hpp\n'}
+[1.778670] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package\n'}
+[1.778932] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action\n'}
+[1.779194] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail\n'}
+[1.779451] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.cpp\n'}
+[1.779713] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.779973] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so\n'}
+[1.780275] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so\n'}
+[1.780537] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/pythonpath.sh\n'}
+[1.780797] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/pythonpath.dsv\n'}
+[1.781056] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py\n'}
+[1.822379] (-) TimerEvent: {}
+[1.914048] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action\n'}
+[1.914692] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/_fleet_management_s.c\n'}
+[1.915013] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/__init__.py\n'}
+[1.915302] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/_fleet_management.py\n'}
+[1.915904] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.919145] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.922009] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[1.922471] (-) TimerEvent: {}
+[1.924105] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__python.so\n'}
+[1.925367] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/action/FleetManagement.idl\n'}
+[1.926075] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/action/FleetManagement.action\n'}
+[1.926899] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[1.927350] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[1.927678] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[1.927987] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[1.928946] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[1.929366] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[1.929687] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[1.929989] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[1.930278] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[1.930565] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[1.931027] (my_package) StdoutLine: {'line': b'-- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.dsv\n'}
+[1.931548] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[1.931915] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cExport.cmake\n'}
+[1.932246] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.932823] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.933637] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.934457] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake\n'}
+[1.934786] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.935345] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cppExport.cmake\n'}
+[1.936468] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.937210] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.937870] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake\n'}
+[1.938702] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.939599] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake\n'}
+[1.940228] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.940615] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.941272] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.941634] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.941933] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.942209] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.942485] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[1.942753] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[1.943039] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.xml\n'}
+[1.949158] (my_package) CommandEnded: {'returncode': 0}
+[2.024096] (-) TimerEvent: {}
+[2.124878] (-) TimerEvent: {}
+[2.225549] (-) TimerEvent: {}
+[2.326713] (-) TimerEvent: {}
+[2.428644] (-) TimerEvent: {}
+[2.529367] (-) TimerEvent: {}
+[2.630234] (-) TimerEvent: {}
+[2.731295] (-) TimerEvent: {}
+[2.833101] (-) TimerEvent: {}
+[2.934473] (-) TimerEvent: {}
+[3.036358] (-) TimerEvent: {}
+[3.139310] (-) TimerEvent: {}
+[3.240180] (-) TimerEvent: {}
+[3.341298] (-) TimerEvent: {}
+[3.442337] (-) TimerEvent: {}
+[3.543295] (-) TimerEvent: {}
+[3.644068] (-) TimerEvent: {}
+[3.744800] (-) TimerEvent: {}
+[3.845890] (-) TimerEvent: {}
+[3.949208] (-) TimerEvent: {}
+[4.050869] (-) TimerEvent: {}
+[4.151936] (-) TimerEvent: {}
+[4.254884] (-) TimerEvent: {}
+[4.357743] (-) TimerEvent: {}
+[4.459585] (-) TimerEvent: {}
+[4.562308] (-) TimerEvent: {}
+[4.593934] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[4.597867] (-) EventReactorShutdown: {}

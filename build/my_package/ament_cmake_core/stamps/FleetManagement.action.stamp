@@ -1,0 +1,8 @@
+# Goal
+int32 fleet_size
+---
+# Result
+string[] vehicle_routes  # This line defines an array of strings
+---
+# Feedback
+float32 completion_percentage

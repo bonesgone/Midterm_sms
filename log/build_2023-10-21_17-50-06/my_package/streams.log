@@ -1,0 +1,120 @@
+[0.606s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12
+[0.827s] [  3%] Built target my_package__cpp
+[0.834s] [ 12%] Built target my_package__rosidl_generator_c
+[0.924s] [ 22%] Built target my_package__rosidl_typesupport_introspection_cpp
+[0.925s] [ 32%] Built target my_package__rosidl_typesupport_cpp
+[0.926s] [ 41%] Built target my_package__rosidl_typesupport_c
+[0.931s] [ 51%] Built target my_package__rosidl_typesupport_introspection_c
+[0.942s] [ 61%] Built target my_package__rosidl_typesupport_fastrtps_cpp
+[1.049s] [ 70%] Built target my_package__rosidl_typesupport_fastrtps_c
+[1.131s] [ 70%] Built target my_package
+[1.215s] [ 74%] Built target my_package__py
+[1.320s] [ 80%] Built target my_package__python
+[1.426s] [ 93%] Built target my_package__rosidl_typesupport_c__pyext
+[1.426s] [ 93%] Built target my_package__rosidl_typesupport_introspection_c__pyext
+[1.427s] [100%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext
+[1.479s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12
+[1.712s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lab/fleet_system_ws/build/my_package
+[1.754s] -- Install configuration: ""
+[1.755s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package
+[1.755s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.756s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg
+[1.756s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_generator_c__visibility_control.h
+[1.756s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.757s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/fleet_management.h
+[1.757s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.758s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__struct.h
+[1.758s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.h
+[1.759s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__functions.c
+[1.759s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__functions.h
+[1.759s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/library_path.sh
+[1.760s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/library_path.dsv
+[1.760s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so
+[1.760s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.761s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg
+[1.762s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.762s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.763s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.764s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h
+[1.765s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so
+[1.766s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.766s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg
+[1.767s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.768s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.768s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.769s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/dds_fastrtps
+[1.769s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp
+[1.769s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so
+[1.770s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.770s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg
+[1.771s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.772s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.772s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.773s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_introspection_c.h
+[1.773s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.c
+[1.773s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so
+[1.774s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so
+[1.774s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.775s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg
+[1.775s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.776s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.776s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/fleet_management.hpp
+[1.777s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.777s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.hpp
+[1.777s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__builder.hpp
+[1.778s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__struct.hpp
+[1.778s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__traits.hpp
+[1.778s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package
+[1.778s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action
+[1.779s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail
+[1.779s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__type_support.cpp
+[1.779s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/include/my_package/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp
+[1.780s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so
+[1.780s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so
+[1.780s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/pythonpath.sh
+[1.780s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/pythonpath.dsv
+[1.781s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py
+[1.914s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action
+[1.914s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/_fleet_management_s.c
+[1.915s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/__init__.py
+[1.915s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/action/_fleet_management.py
+[1.916s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.919s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.922s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/python3.8/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.924s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/lib/libmy_package__python.so
+[1.925s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/action/FleetManagement.idl
+[1.926s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/action/FleetManagement.action
+[1.927s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.927s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.927s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.928s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.929s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.sh
+[1.929s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.dsv
+[1.929s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.bash
+[1.930s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.sh
+[1.930s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.zsh
+[1.930s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.dsv
+[1.931s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.dsv
+[1.931s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.932s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cExport.cmake
+[1.932s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cExport-noconfig.cmake
+[1.933s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake
+[1.934s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.934s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake
+[1.934s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake
+[1.935s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_generator_cppExport.cmake
+[1.936s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake
+[1.937s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.938s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake
+[1.939s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake
+[1.939s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake
+[1.940s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.940s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake
+[1.941s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake
+[1.941s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.942s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.942s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.942s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.942s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.943s] -- Up-to-date: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.xml
+[1.949s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lab/fleet_system_ws/build/my_package

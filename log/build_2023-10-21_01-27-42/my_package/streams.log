@@ -1,0 +1,58 @@
+[0.196s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lab/fleet_system_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/lab/fleet_system_ws/install/my_package
+[0.363s] -- The C compiler identification is GNU 9.4.0
+[0.490s] -- The CXX compiler identification is GNU 9.4.0
+[0.499s] -- Check for working C compiler: /usr/bin/cc
+[0.591s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.593s] -- Detecting C compiler ABI info
+[0.682s] -- Detecting C compiler ABI info - done
+[0.698s] -- Detecting C compile features
+[0.699s] -- Detecting C compile features - done
+[0.702s] -- Check for working CXX compiler: /usr/bin/c++
+[0.808s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.810s] -- Detecting CXX compiler ABI info
+[0.914s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.936s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.973s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.255s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.357s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.359s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lab/fleet_system_ws/src/my_package/include>
+[1.359s] -- Configured cppcheck exclude dirs and/or files: 
+[1.360s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.360s] -- Configured cpplint exclude dirs and/or files: 
+[1.361s] -- Added test 'lint_cmake' to check CMake code style
+[1.362s] -- Added test 'uncrustify' to check C / C++ code style
+[1.363s] -- Configured uncrustify additional arguments: 
+[1.363s] -- Added test 'xmllint' to check XML markup files
+[1.366s] -- Configuring done
+[1.370s] -- Generating done
+[1.372s] -- Build files have been written to: /home/lab/fleet_system_ws/build/my_package
+[1.376s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lab/fleet_system_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/lab/fleet_system_ws/install/my_package
+[1.380s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12
+[1.427s] [35m[1mScanning dependencies of target my_node[0m
+[1.442s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.487s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.544s] [100%] Built target my_node
+[1.558s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lab/fleet_system_ws/build/my_package -- -j12 -l12
+[1.603s] Invoking command in '/home/lab/fleet_system_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lab/fleet_system_ws/build/my_package
+[1.613s] -- Install configuration: ""
+[1.614s] -- Installing: /home/lab/fleet_system_ws/install/my_package/lib/my_package/my_node
+[1.614s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.614s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.615s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.615s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.615s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.sh
+[1.615s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/environment/path.dsv
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.bash
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.sh
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.zsh
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/local_setup.dsv
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.dsv
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.616s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.617s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.617s] -- Installing: /home/lab/fleet_system_ws/install/my_package/share/my_package/package.xml
+[1.619s] Invoked command in '/home/lab/fleet_system_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lab/fleet_system_ws/build/my_package

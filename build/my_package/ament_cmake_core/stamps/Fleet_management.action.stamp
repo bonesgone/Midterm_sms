@@ -1,0 +1,8 @@
+# Goal
+int32 size
+---
+# Result
+string[] vehicle_routes 
+---
+# Feedback
+float32 completion_percentage
